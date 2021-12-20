@@ -1,6 +1,6 @@
 # Maintainer: Kishore Satheeskumar <k.sath214@gmail.com>
 pkgname=nintenno-dwmblocks
-pkgver=1.0.r2.db7d639
+pkgver=1.0.r3.b39ccb6
 pkgrel=1
 epoch=
 pkgdesc="My build of Dwmblocks at https://github.com/KSatheeskumar21/nintenno-dwmblocks"
