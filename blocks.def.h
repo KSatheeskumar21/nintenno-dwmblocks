@@ -4,7 +4,6 @@ static const Block blocks[] = {
 
 	{"🕗 ", "date '+%b %d (%a) %I:%M%p' ",		5,		0},
 	{"📦 ", "~/.local/bin/pacupdate", 360, 9},
-	{"🔊 ", "~/.local/bin/volume", 2, 10},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
