@@ -2,8 +2,10 @@
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 
-	{"🕗 ", "date '+%b %d (%a) %I:%M%p' ",		5,		0},
-	{"📦 ", "~/.local/bin/pacupdate", 360, 9},
+	/* {"🕗 ", "date '+%b %d (%a) %I:%M%p' ",		5,		0}, */
+	/* {"📦 ", "~/.local/bin/pacupdate", 360, 9}, */
+	{"🕑 ", "~/.local/bin/clock", 5, 0},
+	{"🐧 ", "~/.local/bin/kernel", 360, 2},
 };
 
 //sets delimeter between status commands. NULL character ('\0') means no delimeter.
